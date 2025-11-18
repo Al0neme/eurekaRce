@@ -4,4 +4,4 @@
 ### 使用方法
 先运行`python flaskserver.py`开启服务，记录随机端口，然后再运行`python eurekarce.py -u http://127.0.0.1:9090/ -s http://10.0.0.3:12989 -v 1`指定相应的参数即可执行命令
 
-![result](https://al0neme-staticfile.oss-cn-hangzhou.aliyuncs.com/static/202311261538996.png)
+![result](https://raw.githubusercontent.com/Al0neme/eurekaRce/refs/heads/main/image.png)
